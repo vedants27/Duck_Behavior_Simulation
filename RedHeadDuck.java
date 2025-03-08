@@ -5,4 +5,7 @@ public class RedHeadDuck extends Duck{
     swimBehaviour = new SwimWithLegs();
     flyBehaviour = new CanFly();
   }
+  public void display() {
+        System.out.println("I am a red head duck duck!!");
+    }
 }
