@@ -13,5 +13,14 @@ public class Main {
         rd.performSwim();
         rd.performFly();
         System.out.println("-----------------------");
+
+        // Creating an instance of RubberDuck and displaying its behavior
+        RubberDuck rb = new RubberDuck();
+        System.out.println("------------------");
+        rb.display();
+        rb.performQuack();
+        rb.performSwim();
+        rb.performFly();
+        System.out.println("-----------------------");
     }
 }
