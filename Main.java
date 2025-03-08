@@ -32,6 +32,13 @@ public class Main {
         md.performFly();
         System.out.println("-----------------------");
 
-        
+        // Creating an instance of DecoyDuck and displaying its behavior
+        DecoyDuck dd = new DecoyDuck();
+        System.out.println("------------------");
+        dd.display();
+        dd.performQuack();
+        dd.performSwim();
+        dd.performFly();
+        System.out.println("-----------------------");   
     }
 }
