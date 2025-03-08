@@ -19,5 +19,17 @@ abstract public class Duck {
     }
     // Abstract method to be implemented by subclasses to define duck appearance.
     abstract public void display();
+
+   // Method to execute the assigned quack behavior.
+    public void performQuack(){
+        quackBehaviour.quack();
+    }
+    // Method to execute the assigned swim behavior.
+    public void performSwim(){
+        swimBehaviour.swim();
+    }
+    // Method to execute the assigned fly behavior.
+    public void performFly(){
+        flyBehaviour.fly();
     }
 }
