@@ -6,4 +6,8 @@ public class DecoyDuck extends Duck {
         swimBehaviour = new SwimWithLegs();  // Uses legs to swim.
         flyBehaviour = new CannotFly();      // Decoy ducks cannot fly.
     }
+  // Displays the appearance of the Decoy Duck.
+    public void display() {
+        System.out.println("I am Decoy duck..");
+    }
 }
