@@ -22,5 +22,16 @@ public class Main {
         rb.performSwim();
         rb.performFly();
         System.out.println("-----------------------");
+
+        // Creating an instance of MallardDuck and displaying its behavior
+        MallardDuck md = new MallardDuck();
+        System.out.println("------------------");
+        md.display();
+        md.performQuack();
+        md.performSwim();
+        md.performFly();
+        System.out.println("-----------------------");
+
+        
     }
 }
