@@ -12,9 +12,12 @@ abstract public class Duck {
     // Setter method to change the quacking behavior dynamically at runtime.
     public void setQuackBehaviour(QuackBehaviour quackBehaviour) {
         this.quackBehaviour = quackBehaviour;
+    }
     // Setter method to change the flying behavior dynamically at runtime.
     public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
         this.flyBehaviour = flyBehaviour;
     }
+    // Abstract method to be implemented by subclasses to define duck appearance.
+    abstract public void display();
     }
 }
